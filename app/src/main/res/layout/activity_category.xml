@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/kisi"
+        tools:layout_conversion_absoluteX="10dp"
+        tools:layout_conversion_absoluteY="10dp"
+        tools:layout_conversion_absoluteWidth="50dp"
+        tools:layout_conversion_absoluteHeight="50dp"
+        tools:layout_editor_absoluteY="7dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:text="Kullanıcı Adı"
+        tools:layout_conversion_absoluteX="0dp"
+        tools:layout_conversion_absoluteY="60dp"
+        tools:layout_conversion_absoluteWidth="195dp"
+        tools:layout_conversion_absoluteHeight="16dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:layout_editor_absoluteX="50dp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="312dp"
+        android:layout_height="67dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="Selam ben bir kullanıcıyım ve bu da benim bir mesajım"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="33dp" />
+
+</android.support.constraint.ConstraintLayout>
